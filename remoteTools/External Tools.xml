@@ -2,15 +2,15 @@
   <tool name="php cs" description="PHP Code Style Checker" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT">
     <exec>
       <option name="COMMAND" value="/usr/bin/phpcs" />
-      <option name="PARAMETERS" value="-s -n --encoding=utf-8 --standard=$ProjectName$/config/phpcs/ruleset.xml $ProjectName$/$/FilePathRelativeToProjectRoot$" />
-      <option name="WORKING_DIRECTORY" value="/vagrant" />
+      <option name="PARAMETERS" value="-s -n --encoding=utf-8 --standard=config/phpcs/ruleset.xml $/FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="/vagrant/$ProjectName$" />
     </exec>
   </tool>
   <tool name="php cbf" description="PHP Code Beautifier" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT">
     <exec>
       <option name="COMMAND" value="/usr/bin/phpcbf" />
-      <option name="PARAMETERS" value="-n --encoding=utf-8 --standard=$ProjectName$/config/phpcs/ruleset.xml $ProjectName$/$/FilePathRelativeToProjectRoot$" />
-      <option name="WORKING_DIRECTORY" value="/vagrant" />
+      <option name="PARAMETERS" value="-n --encoding=utf-8 --standard=config/phpcs/ruleset.xml $/FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="/vagrant/$ProjectName$" />
     </exec>
   </tool>
 </toolSet>
