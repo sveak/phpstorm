@@ -1,0 +1,9 @@
+<toolSet name="Symfony">
+  <tool name="symfony cc" description="Clear cache" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT" CONNECTION_ID="vagrant:D:\www\vagrant">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/php" />
+      <option name="PARAMETERS" value="./symfony cc" />
+      <option name="WORKING_DIRECTORY" value="/vagrant/$ProjectName$" />
+    </exec>
+  </tool>
+</toolSet>

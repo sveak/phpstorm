@@ -1,0 +1,6 @@
+<list display="BongaCams DevTools" description="BongaCams DevTools">
+  <action id="RemoteTool_PHP Code Style_php code style checker" />
+  <action id="RemoteTool_PHP Code Style_php code beautifier" />
+  <action id="QuickList.$Separator$" />
+  <action id="RemoteTool_Symfony_symfony cc" />
+</list>
