@@ -1,4 +1,4 @@
-<toolSet name="External Tools">
+<toolSet name="PHP Code Style">
   <tool name="php cs" description="PHP Code Style Checker" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT">
     <exec>
       <option name="COMMAND" value="/usr/bin/phpcs" />
