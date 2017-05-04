@@ -9,4 +9,8 @@
   <action id="RemoteTool_External Tools_php cs">
     <keyboard-shortcut first-keystroke="ctrl numpad1" />
   </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
 </keymap>
